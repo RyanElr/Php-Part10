@@ -19,7 +19,7 @@ p{
     font-family: 'Handlee', cursive;
     color: white;
     text-align: center;
-        box-shadow: 0.5px 0.5px blueviolet, 0.5em 0 0.7em blueviolet, -0.5em 0 0.7em blueviolet;
+    box-shadow: 0.5px 0.5px blueviolet, 0.5em 0 0.7em blueviolet, -0.5em 0 0.7em blueviolet;
 }
 label{
     color : white;
