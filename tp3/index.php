@@ -12,22 +12,19 @@ showArrayValue($portrait4);
 <html lang="fr" dir="ltr">
     <head>
         <meta charset="utf-8" />
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+         <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"> 
+           <link rel="stylesheet" href="../assets/style.css">
         <title>Exercice 3</title>
     </head>
 <body>
     <?php
     function showArrayValue($array){
     ?>  
-    <p>
-        <?php
-        echo $array['name'];
-        ?>
-    </p>
-    <p>
-    <?php
-    echo $array['firstname'];
-    ?>
-    </p>
+    <p><?= $array['name'] . ' ' . $array['firstname']; ?></p>
     <img src="<?php
     echo $array['portrait']
             ?>" />
